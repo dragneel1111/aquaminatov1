@@ -1,4 +1,4 @@
-const {
+﻿const {
     WAConnection,
    MessageType,
    Presence,
@@ -54,7 +54,7 @@ const { ind } = require('./language')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Vun\n' 
+            + 'FN:My Owner Vun\n' 
             + 'ORG: Creator AquaBot;\n' 
             + 'TEL;type=CELL;type=VOICE;waid=601112272557:+60 11-1227 2557\n' 
             + 'END:VCARD' 
@@ -63,7 +63,7 @@ prefix = '$'
 limitawal = 50
 memberlimit = 0
 ator = 'Owner'
-namo = 'Vun'
+namo = 'My Master'
 cr = '*BOT INI SUDAH TERVERIFIKASI*'
 /*************************************/
 
@@ -72,7 +72,7 @@ const ownerNumber = ["601112272557@s.whatsapp.net"]
 /************************************/
 
 /******** PREM NUMBER**********/
-const premNumber = ["601112272557@s.whatsapp.net"]
+const premNumber = ["601112272557@s.whatsapp.net","6283872453888@s.whatsapp.net","6288298269251@s.whatsapp.net","6282171732892@s.whatsapp.net"]
 /************************************/
        
 /*********** LOAD FILE ***********/
