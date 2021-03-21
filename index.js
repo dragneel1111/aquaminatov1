@@ -475,10 +475,13 @@ client.on('group-participants-update', async (anu) => {
             client.sendMessage(from, magw, MessageType.sticker, { quoted: mek })
 	        }
 	        if (auto.match('@601112272557')){
-           client.sendMessage(from, 'jangan tag sifu gue, apa² dm aja dia', text, { quoted: mek })
+           client.sendMessage(from, 'Jangan Tag Owner Gue Njeng,Dia Lagi Sibuk Gblk', text, { quoted: mek })
 		    }
 	       if (auto.match('@6283872453888')){
-           client.sendMessage(from, 'jangan tag dia, karna dia lagi ngegay ama om om', text, { quoted: mek })
+           client.sendMessage(from, 'Ada apa? Kalo penting pc dia aja :3', text, { quoted: mek })
+		    }
+ 	       if (auto.match('@6288298269251')){
+           client.sendMessage(from, 'Ada apa? Kalo gk penting jangan tag dia cukk :3', text, { quoted: mek })
 		    }
 
 	        /*****************END SCURITY FEATURE ********/
