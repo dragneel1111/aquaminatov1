@@ -477,7 +477,10 @@ client.on('group-participants-update', async (anu) => {
 	        if (auto.match('@601112272557')){
            client.sendMessage(from, 'jangan tag sifu gue, apa² dm aja dia', text, { quoted: mek })
 		    }
-	       
+	       if (auto.match('@6283872453888')){
+           client.sendMessage(from, 'jangan tag dia, karna dia lagi ngegay ama om om', text, { quoted: mek })
+		    }
+
 	        /*****************END SCURITY FEATURE ********/
 
 
