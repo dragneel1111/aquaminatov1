@@ -24,6 +24,20 @@ const imageToBase64 = require('image-to-base64')
 const axios = require('axios')
 const { color, bgcolor } = require('./lib/color')
 const { donasi } = require('./lib/donasi')
+const { animenu } = require('./lib/animenu')
+const { funmenu } = require('./lib/funmenu')
+const { owmenu } = require('./lib/owmenu')
+const { adminmenu } = require('./lib/adminmenu')
+const { grupmenu } = require('./lib/grupmenu')
+const { kerangmenu } = require('./lib/kerangmenu')
+const { downmenu } = require('./lib/downmenu')
+const { mediamenu } = require('./lib/mediamenu')
+const { makermenu } = require('./lib/makermenu')
+const { join } = require('./lib/join')
+const { update } = require('./lib/update')
+const { nsfwmenu } = require('./lib/nsfwmenu')
+const { gamenu } = require('./lib/gamenu')
+const { ncode } = require('./lib/ncode')
 const { fetchJson } = require('./lib/fetcher')
 const { recognize } = require('./lib/ocr')
 const { exec, spawn } = require("child_process")
@@ -40,8 +54,8 @@ const { ind } = require('./language')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:My Master Vun\n' 
-            + 'ORG: Creator KleeBot;\n' 
+            + 'FN:Vun\n' 
+            + 'ORG: Creator AquaBot;\n' 
             + 'TEL;type=CELL;type=VOICE;waid=601112272557:+60 11-1227 2557\n' 
             + 'END:VCARD' 
 blocked = []   
